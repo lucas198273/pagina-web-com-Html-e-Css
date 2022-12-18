@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos-Display flexbox</title>
+    <style>
+        
+        #body{
+
+            background-color: black;
+        }
+        .primeiro_bloco{
+          max-width: 1100px;
+          max-height: 1100px;
+          padding: 50px;
+          border: 2px solid rgb(235, 7, 7);
+          margin: auto;
+          background-color: rgb(161, 15, 15);
+        }
+        .quadrinhos{
+            max-width: 100px;
+            max-height: 100px;
+
+
+        }
+        .item{
+            background-color: rgb(27, 212, 73);
+            margin: 5px;
+            text-align: center;
+            border: 4px solid rgb(219, 13, 13);
+            background-color: rgb(115, 115, 155);
+            
+        }
+       
+        .item1{
+            background-color: whitesmoke;
+            border: 5px solid darkmagenta;
+            text-align: center;
+            font-family: Verdana;
+            display: flex;
+
+        }
+        .apresentação-imgs  {
+            list-style: none;
+            max-width: 400px;
+            flex-direction: column;
+            border: 10px solid rgba(10, 1, 1, 0.205);
+            display: flex;
+            margin: auto;
+            text-align: center;
+            
+        }
+        .img{
+            max-width:1500px;
+            max-height: 300px;
+            padding:  25px;
+            margin: 15px;
+            text-align:right;
+            margin: auto;
+        
+            
+        }
+        .tema{
+            font-style: italic;
+            color: darkred;
+            text-align: center;
+        }
+        .capas{
+            display: flex;
+        }
+        .BL_.img_livros{
+        list-style: none;
+            max-width: 400px;
+            flex-direction: column;
+            border: 10px solid rgba(10, 1, 1, 0.205);
+            display: flex;
+            margin: auto;
+            text-align: center;
+        
+        }
+        .img_livros{
+           display: auto;
+        }
+
+    </style>
+</head>
+<body id="body">
+
+    <h1 class="Identificação">Niel Gaiman</h1>
+
+    <div class="primeiro_bloco">
+        <div class="capas">
+          <h2  class="quadrinhos">Os incríveis quadrinhos de Neil Gaiman</h2>
+          <img src="quadrinhos.webp" alt="quadrinhos" class="img">
+        </div>
+       <h3>A principal inspiração nos quadrinhos para Neil Gaiman foi o autor Alan Moore. Gaiman conheceu seu trabalho em Londres, enquanto esperava um trem. Encontrou um quadrinho do Monstro do Pântano escrita por Moore e começou a lê-lo. Ficou impressionado com o trabalho do autor e, desde então, se tornou um leitor regular de quadrinhos.
+
+        O primeiro trabalho de Gaiman na indústria dos quadrinhos foi escrevendo histórias para o personagem Miracleman. Após esse trabalho, passou a escrever para a série Future Shocks da revista de quadrinhos britânica chamada 2000AD. Continuou no ramo até que seus trabalhos chamaram a atenção da DC Comics, que contratou seus serviços.Depois de um tempo, o selo Vertigo da DC convidou Gaiman para reescrever um antigo personagem da empresa: o Sandman.
+        
+        Sandman
+        É uma série em quadrinhos com um total de 75 edições. Conta a história de Sandman, uma entidade conhecida como um dos Perpétuos, seres poderosíssimos que personificam conceitos e aspectos do universo. No caso de Sandman, ele é a antropomorfização do Sonho. O quadrinho Sandman pode ser descrito como uma mistura de mitologias e história mundial com uma atmosfera de horror.
+        
+        Com certeza, Sandman é a obra mais marcante da carreira de Neil Gaiman.
+        
+        Os Livros da Magia
+        Outra série escrita para a DC Comics, contudo bem menor que Sandman. Concentrada em apenas quatro volumes, esse quadrinho conta a história de Timothy Hunter, um garoto inglês de cabelos pretos e óculos redondos que descobre que está destinado a se tornar o maior mago de mundo. Tymothy é guiado por vários feiticeiros do universo DC, como John Constantine, em uma jornada que visa ensiná-lo sobre a magia.
+        
+        Existe a controvérsia de que Harry Potter seria um plágio do personagem de Timothy Hunter, uma vez que eles compartilham muitas semelhanças (inclusive ambos possuem uma coruja de estimação). Apesar disso, Neil Gaiman jamais acusou J.K. Rowling de copiá-lo, apenas disse que ou foi coincidência ou ambos se inspiraram nos mesmos arquétipos de fantasia.</h3>
+    </div>
+
+    <h1 class="tema">Livros Escritos</h1>
+    <div class="BL_livros_escritos">
+
+      <ul>
+          <img src="capas-livros.webp" alt="capas" class="img_livros">
+          <img src="Egipcia.jpg" alt="egipicia" class="img_livros">
+          <img src="sadman.jpg" alt="sadman" class="img_livros">
+          <img src="lugar.jpg" alt="lugar"class="img_livros">
+
+
+       </ul>>
+    </div>
+
+    <h1 class="tema">Meus Livros Preferidos</h1>
+
+    <ul class="apresentação-imgs">
+        <li class="item">Mitologia nordica- A Historia dos Deuses</li>
+        <img src="Mitologia.jpg" alt="Mitologia Nordica" class="img">
+        <li class="item">Mundo de odin</li>
+        <img src="Mundo_odin.jpg" alt="livro Mundo de odin"class="img">
+        <li class="item">Deuses americanos</li>
+        <img src="Deuses_Americanos.jpg" alt="Deuses americanos" class="img">
+        <li class="item">Good Omens</li>
+        <img src="Good_Omens.jpg" alt="Good Omens" class="img">
+    </ul>>
+</body>
+</html>
